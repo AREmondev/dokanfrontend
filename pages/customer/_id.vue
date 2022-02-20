@@ -42,7 +42,7 @@
     </div>
     <div class="transitions">
       <div class="row" v-if="customers.transitions && customers.transitions.length">
-        <div class="list-group col-12 d-flex"   v-for="tr in customers.transitions.reverse()" :key="tr.id">
+        <div class="list-group col-12 d-flex"   v-for="tr in customers.transitions" :key="tr.id">
               <h5 class="number">{{tr.payment}}tk</h5>
               <h5 class="number">{{tr.createdAt}}</h5>
           </div>
