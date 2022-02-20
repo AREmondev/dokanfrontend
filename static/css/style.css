@@ -1,0 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Mono&display=swap');
+body {
+    background: #eaeaea !important;
+    font-family: 'PT Sans';
+    font-weight: 400;
+}
+.number {
+    font-family: 'Roboto Mono';
+}
